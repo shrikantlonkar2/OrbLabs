@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-item a{
+    color: white;
+}
+.navbar-nav .nav-item a:hover{
+    color: aqua;
+}
+
+
+.banner h1{
+    color: white;
+    font-size: 68px;
+    margin: 100px 0px 0px;
+    font-weight: 600;
+    line-height: 76px;
+    max-width: 655px;
+}
+.banner h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 538px;
+    margin: 16px 0px 0px;
+    line-height: 32px;
+}
+.banner .img{
+    max-width: 100%;
+    height: auto;
+}
+.creators h1{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 150%;
+    color: white;
+
+}
+.creators .row .col-5 .flexx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.creators .row .col-5{
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background: linear-gradient();
+}
+.creators .abc{
+    padding: 20px;
+}
+
+.backers h1{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 150%;
+    color: white;
+    padding-top: 128px;
+}
+
+.featured h1{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 150%;
+    color: white;
+    padding-top: 128px;
+}
+.featured .row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.featured img{
+    width: 300px;
+    padding: 20px;
+}
+.featured form{
+    background: white;
+    width: 300px;
+    height: 55px;
+    display: flex;
+}
+.footer form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px 40px;
+}
+.footer form button{
+    background: purple;
+    padding: 5px 30px;
+    border-bottom:2px solid purple;
+    outline: none;
+    color: white;
+}
+.footer .row .col-6 a{
+    text-decoration: none;
+    color: white;
+}
+.footer .row .col-6 a:hover{
+    color: aqua;
+}
